@@ -1,0 +1,50 @@
+h1,legend,p{
+
+    text-align: center;
+    size: 5px;
+
+}
+.im{
+height: auto;
+width: 700px;
+border: 3px black solid;
+
+}
+.ab{
+height: 100px;
+width: 100px;
+border: 8px black solid;
+margin-left: 42%;
+background-image: URL("image.jpg");
+background-size: 100px 120px;
+background-repeat: no-repeat;
+}
+.ax{
+text-decoration: underline;
+size: 22px;
+}
+.ap{
+   text-indent: 80px;
+   line-height: 5px;
+}
+.a{
+    text-indent: 160px;
+    line-height: 3px;
+}
+.p{
+    font-weight:bold;
+}
+.l{
+    text-align: right;
+}
+.n{
+    margin-left: 47%;
+}
+.o{
+    margin-left: 20px;
+}
+.mp{
+ height: 50px;
+ width: 300px;
+margin-left: 42%;
+}

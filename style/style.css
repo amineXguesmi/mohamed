@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding:0px;
+    border-radius: 15px;
+}
+
+body{
+    background-color:rgb(147, 147, 229);
+}
+
+header{
+    /*height: 10%;*/
+   /* width: 100%;*/
+    background-image: URL("image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* background-size: 100% 100%;*/
+    border-bottom: 4px black solid;
+    border-radius:0px;
+}
+.edit{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+.edit::after{
+    content:"--";
+    color: black;
+}
+.edit::before{
+    content:"--";
+    color: black;
+}
+
+@media screen and (max-width: 600px){
+    .edit{
+        font-size: 35px;
+    }
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: row wrap; */
+    
+}
+
+.child{
+    background-color: rgb(58, 58, 102);
+    padding:15px;
+    margin: 10px;
+    /*flex-basis: 25%;*/
+}
+
+.child p{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.am{
+    
+    font-size:30px ;
+    margin-top: 10px;
+    
+}
+
+@media screen and (max-width: 900px){
+    .child p{
+        font-size: 30px;
+    }
+
+    .am{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .child p{
+        font-size: 20px;
+    }
+}   
+a{
+    text-decoration: none;
+    background-color:rgb(58, 58,102) ;
+    color: rgb(212, 195, 182);
+    transition: 0.2s ease-in;
+
+}
+a:hover{
+    color: red;
+    
+}
+.child_c2{
+    background-color: rgb(58, 58, 102);
+    padding:15px;
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+    height:80px;
+    
+}
+
+hr{
+    border: 3px black solid;
+    background-color: black;
+    border-radius:0px;
+}
+footer a{
+    color: black;
+    font-size: 26px;
+    background-color:rgb(47, 61, 74);
+}
+footer {
+    text-align: right;
+    background-image: url("footer.jpg");
+    border-radius:0px;
+    height: 40px;
+    border-bottom: 2px solid;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    
+}

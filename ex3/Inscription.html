@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="a1">Inscription en licence</h1>
+    <fieldset>
+ <legend>Informations personnelles</legend>
+ <form action="valide.html">
+ <label for="nom"> <p>Votre nom: </label><input type="text" name="nom" size=15 placeholder="votre nom?">
+    <label for="mot de pass2"><p>Retapez votre mot de passe:</label><input type="password" name="><br>
+ <label for="prenom"><p>Votre prenom: </label><input type="text" name="prenom" size=20 placeholder="votre prenom?"><br>
+  <label for="age"><p>Votre age:</label><input type="number" name="nom" size=2 placeholder="votre age?"><br>
+    <label for="date"><p>Votre date de naissance:</label><input type="date" name="date"  placeholder="jj/mm/aa"><br>
+    <label for="adresse"><p>Votre adresse:</label><textarea name="adresse" rows=5 cols=40 placeholder="Votre adresse?"></textarea><br>
+  <label for="email"><p>Votre email:</label><input type="email" name="email" size=20 placeholder="votre email?">
+    <label for="URL"><p>Votre URL du votre site:</label><input type="url" name="url" size=20 placeholder="votre URL?">
+    <label for="mot de pass1"><p>Mot de passe:</label><input type="password" name="mot de pass1" required>
+    <label for="mot de pass2"><p>Retapez votre mot de passe:</label><input type="password" name="mot de pass2" required>
+</fieldset>
+<fieldset>
+<legend>Gestion des groupes et des options</legend>
+<p>votre groupe <label><input id="gr1" type="radio" name="r" value="groupe1"> groupe1</label> <label><input id="gr2" type="radio" name="r" value="groupe2"> groupe2</label> <label><input id="gr3" type="radio" name="r" value="groupe3"> groupe3</label>
+<p>Numéro de carte d'étudiant <input type="number" name="id" size="8" placeholder="Numéro de carte d'étudiant?">
+    <br><br><br><br><br>
+<p>Choissez les options que vous désirez:<select name="option">
+  <option value="s1">Andriod</option>
+  <option value="s2">Net</option>
+  <option value="s3">HTML5</option>
+  <option value="s4">Flex</option>
+  <option value="s5">J2ee</option>  
+</select>
+<p></p>
+check point:<input type="text" name="check" pattern="[I][N][S][A][T][0-9]{4}" placeholder="INSATaaaa" required>
+</fieldset>
+<input type ="submit" class="n" value="valider">
+<input type="reset" class="o" value="renitiliser">
+</form>
+</body>
+</html>
