@@ -41,7 +41,7 @@ header{
 .container{
     display: flex;
     justify-content: center;
-    /* flex-wrap: row wrap; */
+    flex-wrap: row wrap;
     
 }
 
